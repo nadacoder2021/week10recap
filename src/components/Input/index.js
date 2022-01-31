@@ -1,12 +1,12 @@
 import { Input } from 'antd';
-import { useEffect, useState} from 'react';
+import { useState} from 'react';
 import {Button} from "antd"
 
 const { TextArea } = Input;
 
 
 
-export function InputComment({handleClick}){
+export function InputComment(){
 
 const [username, setUsername] = useState("")
 const [comment, setComment] = useState("")
