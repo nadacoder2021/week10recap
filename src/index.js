@@ -16,7 +16,7 @@ ReactDOM.render(
   <Routes>
     <Route path="/" element={<Auth0Provider domain= "dev-uix3nm4q.us.auth0.com"
   clientId= "IO84jvVXnfkDzOAvc4RneYHyN6wdPYNV"
-  redirectUri="https://amazing-meninsky-6ee140.netlify.app/blog" || "https://amazing-meninsky-6ee140.netlify.app/">
+  redirectUri="https://amazing-meninsky-6ee140.netlify.app/blog">
   
     <App />
   </Auth0Provider>} />
