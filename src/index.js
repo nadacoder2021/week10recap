@@ -20,7 +20,7 @@ ReactDOM.render(
   
     <App />
   </Auth0Provider>} />
-  <Route path="/blog" element={<Blog />} />
+  <Route path="https://amazing-meninsky-6ee140.netlify.app/blog" element={<Blog />} />
   
   </Routes>
   </BrowserRouter>,
